@@ -1,0 +1,37 @@
+@import '../../styles/abstract/mixins';
+
+.home {
+    width: 100%;
+    height: 100vh;
+    // background: url('../../images/background.webp') no-repeat;
+    background: url('../../images/bg3.jpg') transparent no-repeat;
+    background-size: cover;
+
+    @include flex-center(flex, row, center, center);
+
+    &__container {
+        width: 50%;
+        padding: 10px;
+        background-color: white;
+        text-align: center;
+        border: 1px solid black;
+
+        h2 {
+            font-size: 42px;
+            color: blue;
+        }
+
+        .button {
+            background-color: blue;
+            color: white;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            display: inline-block;
+            
+        }
+        .button:hover{
+            background-color: skyblue;
+            color: black;
+        }
+    }
+}

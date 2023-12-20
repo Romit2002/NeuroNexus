@@ -1,0 +1,13 @@
+.sidebar {
+    background-color: skyblue;
+    color: black;
+    height: 100vh;
+    padding: 1rem;
+    max-width: 15vw;
+    font-weight: 500;
+    overflow: hidden;
+
+    .list-item {
+        margin: 1rem 0;
+    }
+}

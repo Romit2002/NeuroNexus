@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+
+    &__logo {
+        h5 {
+            color: white;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+
+    .button {
+        // background-color: skyblue;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+
+    }
+    .button:hover{
+        background-color: white;
+        color: black
+    }
+
+
+}
